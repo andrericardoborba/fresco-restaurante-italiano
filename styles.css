@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #292827;
+}
+
+/*font-family: 'Berkshire Swash', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+body{
+    height: 100vh;
+    width: 100vw;
+}
+/*logo e nav*/
+#header {
+    height: 72px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+#logo {  
+    width: 130px;
+    margin-top: 5px;
+    height: 80%;
+}
+
+#navigation {
+    display: flex;
+}
+
+li {
+    list-style: none;   
+    padding: 16px;
+}
+
+a {
+    text-decoration: none;
+    
+
+}
+a:hover {
+    color: rgba(255, 136, 0, .9);
+}
+
+.button {
+    padding: 8px 40px;
+    border-radius: 30px;
+    background-color: #ff8800;
+    border-color: #ff8800;
+    outline: none;
+    color: #ffffff;
+}
+.button:hover {
+    background-color: rgba(255, 136, 0, .9);
+}
+
+/*img fundo e titulo*/
+#back-image {
+    margin: auto;
+    background: url(/img.projetofrescowp/pizzaria-hero-fundo01.jpg) no-repeat;
+    opacity: 80%;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 920px;
+    width: 100%;
+}
+
+.header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    
+}
+
+.title {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 6.5rem;
+    color: #eeeeee;
+}
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3rem;
+    color: #ff8800;
+}
+.description {
+    font-size: 2rem;
+    font-style: italic;
+    color: #eeeeee;
+}
+/*bem vindo (com três colunas)*/
+#back-image-sheet {
+    background: url(/img.projetofrescowp/folha-fundo-02.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    /* height: 100%; */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+/* #welcome {
+ 
+    height: 840px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+} */
+
+.invitation {
+    height: 80%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 33%;
+    margin: 10px;
+}
+.span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#pizza {
+    max-height: 350px;
+    margin: auto;
+}
+
+#welcome-title {
+    color: #C66300;
+    font-size: 4.5em;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+#recognition-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+#recognition-title-description {
+    line-height: 2rem;
+}
+.btn-black {
+    width: 200px;
+    background-color: #071013;
+    border: #071013;
+    padding: 15px 30px;
+    font-size: 1rem;
+}
+#opening-hours {
+    max-width: 33%;
+    margin: auto;
+}
+
+/*cardapio*/
+.menu {
+    height: 860px;
+    margin-top: 50px;
+    
+    
+}
+.menu img{
+    margin-top: 50px;
+}
+
+.title-menu {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-our-menu {
+    color: #C66300;
+    font-size: 3rem;
+    font-family: 'Berkshire Swash', cursive;
+    margin-bottom: 20px;
+}
+.sub-title-our-menu {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+.menu-meals {
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1100px;*/
+    margin: 20px auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    
+}
+.meals {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 500px;
+    
+    
+}
+
+.meals img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.meals-options {
+    height: 90%;
+    max-width: 215px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.type-of-meals {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 1.9rem;
+    color: #C66300;
+    font-weight: 700;
+    font-style: italic;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.m-btn {
+    padding: 10px 80px;
+    margin: 50px 0;
+}
