@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@400;600&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Fresco - Restaurante Italiano</title>
 </head>
@@ -17,10 +17,10 @@
         </div>
         <nav>
             <ul id="navigation">
-                <li><a href="">Home</a></li>
-                <li><a href="">Cardápio</a></li>
-                <li><a href="">Quem somos</a></li>
-                <li><a href="">Notícias</a></li>
+                <li><a class="active" href="#Home">Home</a></li>
+                <li><a href="#Cardapio">Cardápio</a></li>
+                <li><a href="#QuemSomos">Quem somos</a></li>
+                <li><a href="#Noticias">Notícias</a></li>
                 <button class="button">Contato</button>
             </ul>
         </nav>
@@ -122,6 +122,7 @@
             </div>
             <div class="promotion">
                 <!-- <img src="" alt=""> -->
+                <img id="svg1" src="/img.projetofrescowp/cup.svg" alt="">
                 <span class="promo-day">Toda quarta-feira</span>
                 <h4 class="promo-title">Happy Hour!</h4>
                 <p class="promo-description">Metade do preço nas garrafas de vinho e seis deliciosos lanches por R$9</p>
@@ -129,25 +130,60 @@
             </div>
         </section>
         <section class="depositions">
-            <div>
-                <img src="" alt="">
-                <div></div>
-                <span></span><span></span></div>
-            <div>
-                <img src="" alt="">
-                <div></div>
-                <span></span><span></span></div>
-            <div>
-                <img src="" alt="">
-                <div></div>
-                <span></span><span></span></div>
-            <div>
-                <img src="" alt="">
-                <div></div>
-                <span></span><span></span></div>
+            <div class="d-flex">
+                <div class="centralizar-container">
+                    <div class="container-aspas">
+                        <img id="img-aspas" src="/img.projetofrescowp/aspas.png" alt="">
+                        <h3 id="depoimentos">Depoimentos</h3>
+                    </div>
+                    <div class="person-despositions">
+                        <img class="circle" src="/img.projetofrescowp/depoimento01.png" alt="">
+                        <div class="testemunho">“A melhor pizza do bairro, e quando pedimos o vinho para acompanhar, temos a dupla perfeita. Recomendo a todos aqueles que procuram um lugar agradável para jantar.”
+                        </div>
+                        <div class="person-name-social">
+                            <span class="person">Joana L</span>
+                            <span class="social">Facebook</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="d-flex">
+                <div class="centralizar-container">
+                    <div class="person-despositions">
+                        <img class="circle" src="/img.projetofrescowp/depoimento03.png" alt="">
+                        <div class="testemunho">“A melhor pizza do bairro, e quando pedimos o vinho para acompanhar, temos a dupla perfeita. Recomendo a todos aqueles que procuram um lugar agradável para jantar.”
+                        </div>
+                        <div class="person-name-social">
+                            <span class="person">Clarissa J</span>
+                            <span class="social">YouTube</span>
+                        </div>
+                    </div>
+                    <div class="person-despositions">
+                        <img class="circle" src="/img.projetofrescowp/depoimento02.png" alt="">
+                        <div class="testemunho">“A melhor pizza do bairro, e quando pedimos o vinho para acompanhar, temos a dupla perfeita. Recomendo a todos aqueles que procuram um lugar agradável para jantar.”
+                        </div>
+                        <div class="person-name-social">
+                            <span class="person">Juliana P</span>
+                            <span class="social"> Google</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </section>
-        <footer>
+        <footer >
+            <div  id="footer" class="img-footer">
+                <div class="overlay">
+                    <img id="svg" src="/img.projetofrescowp/phone.svg" alt="">
+                    <h3 id="contact">Ligue e faça a sua reserva</h3>
+                    <p id="phone">3004-8660</p>
 
+                </div>
+                <div id="copyright">
+                    <p id="color-white">© 2021 Fresco | Replicado com HTML & CSS por <span id="color">André Ricardo Borba</span> </p>
+                </div>
+            </div>
         </footer>
 
     </main>
