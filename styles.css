@@ -82,47 +82,37 @@ a:hover {
     font-family: 'Berkshire Swash', cursive;
     font-size: 6.5rem;
     color: #eeeeee;
+    margin: 15px;
 }
 .main-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.3rem;
     color: #ff8800;
+    
 }
 .description {
     font-size: 2rem;
     font-style: italic;
     color: #eeeeee;
+    margin-top: 20px;
 }
 /*bem vindo (com três colunas)*/
+
 #back-image-sheet {
     background: url(/img.projetofrescowp/folha-fundo-02.jpg) no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    /* height: 100%; */
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 640;
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin: 20px;
 }
 
-/* #welcome {
- 
-    height: 840px;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    margin: auto;
-    position: relative;
-} */
-
 .invitation {
-    height: 80%;
     display: flex;
-    text-align: center;
     flex-direction: column;
     justify-content: space-around;
-    max-width: 33%;
     margin: 10px;
 }
 .span {
@@ -130,25 +120,26 @@ a:hover {
     font-weight: 600;
 }
 
-#pizza {
-    max-height: 350px;
-    margin: auto;
+#pizza img{
+    max-width: 350px;
 }
 
 #welcome-title {
     color: #C66300;
     font-size: 4.5em;
     font-family: 'Berkshire Swash', cursive;
-
+    margin-bottom: 25px;
 }
 #recognition-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.2rem;
     font-weight: 600;
+    margin-bottom: 25px;
 }
 
 #recognition-title-description {
     line-height: 2rem;
+    margin-bottom: 25px;
 }
 .btn-black {
     width: 200px;
@@ -158,23 +149,20 @@ a:hover {
     font-size: 1rem;
 }
 #opening-hours {
-    max-width: 33%;
-    margin: auto;
+    flex: 1;
+    /* margin: auto; */
 }
 
 /*cardapio*/
 .menu {
-    height: 860px;
+    height: 750px;
     margin-top: 50px;
     
     
-}
-.menu img{
-    margin-top: 50px;
 }
 
 .title-menu {
-    
+    /* margin: 50px 0 20px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -191,11 +179,6 @@ a:hover {
     margin-bottom: 50px;
 }
 .menu-meals {
-    /* display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 1100px;*/
     margin: 20px auto;
     max-width: 1000px;
     display: grid;
@@ -214,7 +197,6 @@ a:hover {
 
 .meals img {
     width: 150px;
-    margin-right: 10px;
 }
 
 .meals-options {
@@ -222,6 +204,7 @@ a:hover {
     max-width: 215px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .pb10 {
@@ -248,6 +231,68 @@ a:hover {
 }
 
 .m-btn {
-    padding: 10px 80px;
+    width: 300px;
+    height: 50px;
+    font-size: 1rem;
+    padding: 10px 40px;
     margin: 50px 0;
+}
+
+/*happy hour*/
+
+.happy-hour {
+    display: flex;
+    width: 100vw;
+    
+    
+}
+.happy-hour img {
+    width: 526px;
+    height: 526px;
+    margin: 20px;
+    
+    
+}
+
+.promotion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 500px;
+    
+}
+.promo-day {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.promo-title {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2.3rem;
+    color: #C66300;
+    margin-bottom: 35px;
+}
+
+.promo-description {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 35px;
+    line-height: 3rem;
+
+}
+
+.btn-promo {
+    padding: 18px 40px;
+    border-radius: 30px;
+    background-color: #ff8800;
+    border-color: #ff8800;
+    outline: none;
+    color: #ffffff;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.btn-promo:hover {
+    background-color: rgba(255, 136, 0, .9);
 }
