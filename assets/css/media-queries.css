@@ -1,0 +1,34 @@
+@media (max-width: 769px){
+    #back-image-sheet {
+        max-width: 700px;
+        margin: 30px auto;
+    }
+    .invitation {
+        max-width: 500px;
+    }
+    #pizza img{
+        max-width: 200px;
+    }
+    #welcome-title {
+        font-size: 3.5em;
+        margin-bottom: 25px;
+    }
+    #recognition-title {
+        font-size: 1.6rem;
+
+        margin-bottom: 25px;
+    }
+    #opening-hours img{
+        /* margin-right: 20px; */
+        max-width: 270px;
+    
+    }
+    .meals-options {
+        height: 60%;
+        /* align-self: flex-start; */
+    }
+    .price {
+        align-self: flex-end;
+        margin-right: 20px;
+    }
+}

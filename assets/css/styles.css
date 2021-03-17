@@ -61,7 +61,7 @@ a:hover, a:active {
 /*img fundo e titulo*/
 #back-image {
     margin: auto;
-    background: url(/img.projetofrescowp/pizzaria-hero-fundo01.jpg) no-repeat;
+    background: url(../img.projetofrescowp/pizzaria-hero-fundo01.jpg) no-repeat;
     opacity: 80%;
     background-size: cover;
     background-attachment: fixed;
@@ -99,7 +99,7 @@ a:hover, a:active {
 /*bem vindo (com três colunas)*/
 
 #back-image-sheet {
-    background: url(/img.projetofrescowp/folha-fundo-02.jpg) no-repeat;
+    background: url(../img.projetofrescowp/folha-fundo-02.jpg) no-repeat;
     background-attachment: fixed;
     background-size: contain;
     height: 640;
@@ -148,10 +148,10 @@ a:hover, a:active {
     padding: 15px 30px;
     font-size: 1rem;
 }
-#opening-hours {
+/* #opening-hours {
     flex: 1;
-    /* margin: auto; */
-}
+
+} */
 
 /*cardapio*/
 .menu {
@@ -377,7 +377,7 @@ a:hover, a:active {
 /*footer*/
 
 .img-footer {
-    background:  url(/img.projetofrescowp/pizzaria-hero-fundo02.jpg) no-repeat;
+    background:  url(../img.projetofrescowp/pizzaria-hero-fundo02.jpg) no-repeat;
     background-size: cover;
     height: 800px;
     width: 100%;
