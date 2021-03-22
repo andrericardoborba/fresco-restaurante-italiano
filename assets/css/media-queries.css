@@ -1,0 +1,109 @@
+@media (max-width: 544px) {
+    /*header nav*/
+    .header__navigation a{
+      display: none;
+    }
+    .menu-mobile {
+      display: block;
+      
+    }
+    /*banner*/
+    .banner__title {
+      font-size: 7.4rem;
+    }
+    /*bem vindo (com três colunas)*/
+    .welcome {
+      height: 100%;
+      flex-direction: column-reverse;
+    }
+    .welcome__title {
+      font-size: 5.5em;
+      margin-bottom: 25px;
+    }
+  
+    /*Cardápio*/
+    .menu {
+      height: 1280px;
+      margin-top: 50px;
+      
+    }
+    .menu__subtitle {
+        font-size: 3rem;
+      }
+    .menu__meals {
+      justify-content: space-around; 
+      
+    }
+    .menu__portions {
+      display: flex;
+      width: 95%;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto 35px;
+      
+      
+    }
+    /*happy hour*/
+    .happy-hour {
+      height: 100%;
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
+    }
+    .happy-hour__image {
+        height: 100%;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .happy-hour__svg {
+      margin-top: 30px;
+    }
+    .happy-hour__btn {
+        margin: 0 auto 30px;
+    }
+    /*depoimentos*/
+    .depositions {
+      height: 100%;
+      flex-direction: column;
+      margin: auto;
+    }
+  
+    .depositions__person .quotes{
+        height: 110px;
+        background-color: #ffffff;
+        opacity: 0.25;
+    }
+    .depositions__title {
+      margin: 20px auto 0;
+      text-align: center;
+      font-family: "Berkshire Swash", cursive;
+      font-size: 3rem;
+      color: #c66300;
+    }
+  
+  }
+
+  @media (max-width: 360px) {
+      .menu {
+          height: 1580px;
+          bottom: 40px;
+      }
+        .menu__portions {
+            flex-direction: column;
+            text-align: center;
+        }
+        .menu__options--meals {
+            padding-top: 20px;
+        }
+        .menu__btn {
+            bottom: 0;
+        }
+  }
+
+  @media (max-width: 300px) {
+     
+  }

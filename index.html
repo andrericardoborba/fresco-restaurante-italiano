@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/media-queries.css">
     <title>Fresco - Comida Italiana</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
                 <li><a href="#QuemSomos">Quem somos</a></li>
                 <li><a href="#Noticias">Notícias</a></li>
                 <div class="botoes">
-                    <button class="button none">Contato</button>
+                    <button class="button__orange none">Contato</button>
                     <div class="menu-mobile">
                         <div class="mm_line"></div>
                         <div class="mm_line"></div>
@@ -121,15 +122,15 @@
                 </div>
             </div>
             <div class="menu__btn">
-
-                <button class="button m-btn">CARDÁPIO COMPLETO</button>
+    
+                <button class="button__orange m-btn">CARDÁPIO COMPLETO</button>
             </div>
-            
         </section>
+            
         <section class="happy-hour">
-            <div class="happy-hour__image">
-                <img src="./assets/img.projetofrescowp/restaurante01.jpg" alt="">
-            </div>
+            <!-- <div class="happy-hour__image"> -->
+                <img class="happy-hour__image" src="./assets/img.projetofrescowp/happyhour.jpg" alt="">
+            <!-- </div> -->
             <div class="happy-hour__promotion">
       
                 <img class="happy-hour__svg" src="./assets/img.projetofrescowp/cup.svg" alt="">
@@ -142,8 +143,9 @@
 
         <section class="depositions">
 
-                    <div class="depositions__box--image">
-                        <img  src="./assets/img.projetofrescowp/aspas.png" alt="">
+                    <!-- <div class="depositions__box--image"> -->
+                        <div class="depositions__person">
+                        <img  class="quotes" src="./assets/img.projetofrescowp/aspas.png" alt="">
                         <h3 class="depositions__title">Depoimentos</h3>
                     </div>
                     <div class="depositions__person">
