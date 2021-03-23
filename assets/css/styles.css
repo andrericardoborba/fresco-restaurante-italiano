@@ -60,7 +60,6 @@ body {
   border-color: #ff8800;
   outline: none;
   color: #ffffff;
-  
 }
 .button__orange:hover {
   background-color: rgba(255, 136, 0, 0.9);
@@ -154,6 +153,7 @@ body {
   border: #071013;
   padding: 15px 45px;
   font-size: 1.8rem;
+  outline: none;
 }
 
 .welcome__opening {
@@ -279,6 +279,7 @@ body {
   font-size: 1.6rem;
   padding: 10px 30px;
   margin: 0 0 20px;
+  outline: none;
 }
 
 /*happy hour*/
@@ -351,17 +352,15 @@ body {
 .depositions {
   height: 100%;
   width: 80%;
-  
- 
+
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 100px;
   margin: auto;
-  
 }
 .quotes {
   max-width: 80%;
-  opacity: 0.40;
+  opacity: 0.4;
 }
 
 .depositions__title {
@@ -372,16 +371,12 @@ body {
   color: #c66300;
 }
 
-/* .width-image{
-  min-width: 490px;
-} */
 .depositions__person {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  /* max-width: 50%; */
 }
 
 .depositions__image {

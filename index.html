@@ -1,202 +1,268 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/media-queries.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans:wght@400;600;700&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/media-queries.css" />
     <title>Fresco - Comida Italiana</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
-       
-        <div class="header__logo">
-            <img src="./assets/img.projetofrescowp/fresco-logo-pequeno.png" alt="">
-        </div>
-        <nav>
-        
-            <ul class="header__navigation">
-                <li><a class="active" href="#Home">Home</a></li>
-                <li><a href="#Cardapio">Cardápio</a></li>
-                <li><a href="#QuemSomos">Quem somos</a></li>
-                <li><a href="#Noticias">Notícias</a></li>
-                <div class="botoes">
-                    <button class="button__orange none">Contato</button>
-                    <div class="menu-mobile">
-                        <div class="mm_line"></div>
-                        <div class="mm_line"></div>
-                        <div class="mm_line"></div>
-                    </div>
-
-                </div>
-            </ul>
-        </nav>
+      <div class="header__logo">
+        <img
+          src="./assets/img.projetofrescowp/fresco-logo-pequeno.png"
+          alt=""
+        />
+      </div>
+      <nav>
+        <ul class="header__navigation">
+          <li><a class="active" href="#Home">Home</a></li>
+          <li><a href="#Cardapio">Cardápio</a></li>
+          <li><a href="#QuemSomos">Quem somos</a></li>
+          <li><a href="#Noticias">Notícias</a></li>
+          <div class="botoes">
+            <button class="button__orange">Contato</button>
+            <div class="menu-mobile">
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+              <div class="mm_line"></div>
+            </div>
+          </div>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section class="banner__image">
-            <div class="banner__overlay">
+      <section class="banner__image">
+        <div class="banner__overlay">
+          <img
+            src="./assets/img.projetofrescowp/barra-horizontal.png"
+            class="horizontal-bar"
+            alt="barra-horizontal"
+          />
+          <span class="banner__title">Fresco.</span>
+          <h1 class="banner__subtitle">Especialidades Italianas</h1>
 
-                
-                <img src="./assets/img.projetofrescowp/barra-horizontal.png" class="horizontal-bar" alt="barra-horizontal">
-                <span class="banner__title">Fresco.</span>
-                <h1 class="banner__subtitle">Especialidades Italianas</h1>
-                
-                <p class="banner_description">Comida boa | Bom vinho</p>
+          <p class="banner_description">Comida boa | Bom vinho</p>
+        </div>
+      </section>
+
+      <section class="welcome">
+        <article class="welcome_invitation">
+          <span class="welcome__subtitle">O mais amado do bairro</span>
+          <h3 class="welcome__title">Bem-vindo</h3>
+          <p class="welcome__recognition">
+            Reconhecido pela boa comida e bebida desde 1978.
+          </p>
+          <p class="welcome__description">
+            Premiada pelo instituto Curso em Vídeo de qualidade de culinária e
+            oferecendo os melhores serviços. Premiada pelo instituto Curso em
+            Vídeo de qualidade de culinária e oferecendo os melhores serviços.
+          </p>
+          <button class="btn-black">Mais sobre nós -></button>
+        </article>
+        <div class="welcome__pizza">
+          <img src="./assets/img.projetofrescowp/pizza.jpg" alt="" />
+        </div>
+        <div class="welcome__opening">
+          <img src="./assets/img.projetofrescowp/restaurante02.jpg" alt="" />
+          <div class="welcome__opening-hours">
+            <h2 class="welcome__hour">Horário</h2>
+            <p class="welcome__day">Todos os dias, de 9h até 23h</p>
+          </div>
+        </div>
+      </section>
+      <section class="menu">
+        <div class="menu__main">
+          <img
+            class="menu__sheet"
+            src="./assets/img.projetofrescowp/folha-fundo-01.png"
+            alt=""
+          />
+          <h2 class="menu__title">Nosso Cardápio</h2>
+          <p class="menu__subtitle">
+            Ingredientes de qualidade, pratos saborosos
+          </p>
+        </div>
+
+        <div class="menu__meals">
+          <div class="menu__portions">
+            <img
+              class="menu__portions--image"
+              src="./assets/img.projetofrescowp/prato04-300x255.jpg"
+              alt=""
+            />
+            <div class="menu__options">
+              <span class="menu__options--meals">Peixe à Dorê</span>
+              <p class="menu__description">Acompanha salada e legumes</p>
+
+              <span class="menu__price">R$35</span>
             </div>
-        </section>
-        
-        <section class="welcome">           
-                <article class="welcome_invitation">
-                    <span class="welcome__subtitle">O mais amado do bairro</span>
-                    <h3 class="welcome__title">Bem-vindo</h3>
-                    <p class="welcome__recognition">Reconhecido pela boa comida e bebida desde 1978.</p>
-                    <p class="welcome__description">Premiada pelo instituto Curso em Vídeo de qualidade de culinária e oferecendo os melhores serviços. Premiada pelo instituto Curso em Vídeo de qualidade de culinária e oferecendo os melhores serviços.</p>
-                    <button class="btn-black">Mais sobre nós -></button>
-                </article>
-                <div class="welcome__pizza">
+          </div>
 
-                    <img  src="./assets/img.projetofrescowp/pizza.jpg" alt="">
-                </div>
-                <div class="welcome__opening">
-
-                    <img  src="./assets/img.projetofrescowp/restaurante02.jpg" alt="">
-                    <div class="welcome__opening-hours">
-                        <h2 class="welcome__hour">Horário</h2>
-                        <p class="welcome__day">Todos os dias, de 9h até 23h</p>
-
-                    </div>
-                </div>
-            
-        </section>
-        <section class="menu">
-            <div class="menu__main">
-                <img class="menu__sheet" src="./assets/img.projetofrescowp/folha-fundo-01.png" alt="">
-                <h2 class="menu__title">Nosso Cardápio</h2>
-                <p class="menu__subtitle">Ingredientes de qualidade, pratos saborosos</p>
+          <div class="menu__portions">
+            <img
+              class="menu__portions--image"
+              src="./assets/img.projetofrescowp/prato01-300x255.jpg
+                    "
+              alt=""
+            />
+            <div class="menu__options">
+              <span class="menu__options--meals">Fettuccine à bolonhesa</span>
+              <p class="menu__description">Molho de carne moída e uma folha</p>
+              <span class="menu__price">R$29</span>
             </div>
-                
-            <div class="menu__meals">
+          </div>
 
-                <div class="menu__portions">
-                    <img class="menu__portions--image" src="./assets/img.projetofrescowp/prato04-300x255.jpg" alt="">
-                    <div class="menu__options">
-                        <span class="menu__options--meals">Peixe à Dorê</span>
-                        <p class="menu__description">Acompanha salada e legumes</p>
-                        
-                        <span class="menu__price">R$35</span>
-                    </div>
-                    
-                </div>
-
-                <div class="menu__portions">
-                    <img class="menu__portions--image" src="./assets/img.projetofrescowp/prato01-300x255.jpg
-                    " alt="">
-                    <div class="menu__options">
-                        <span class="menu__options--meals">Fettuccine à bolonhesa</span>
-                        <p class="menu__description">Molho de carne moída e uma folha</p>
-                        <span class="menu__price">R$29</span>
-                    </div>
-                </div>
-
-                
-                <div class="menu__portions">
-                    <img  class="menu__portions--image" src="./assets/img.projetofrescowp/prato02-300x255.jpg" alt="">
-                    <div class="menu__options">
-                        <span class="menu__options--meals">Spaghetti à calabria</span>
-                        <p class="menu__description">Molho alho e óleo e outra folha (maior)</p>
-                        <span class="menu__price">R$25</span>
-                    </div>
-                </div>
-                
-                <div class="menu__portions">
-                    <img class="menu__portions--image" src="./assets/img.projetofrescowp/prato03-300x255.jpg" alt="">
-                    <div class="menu__options">
-                        <span class="menu__options--meals">Pizza favorita</span>
-                        <p class="menu__description">Um pouco de tudo (e muito mais) </p>
-                        <span class="menu__price">R$32</span>
-                    </div>
-                </div>
+          <div class="menu__portions">
+            <img
+              class="menu__portions--image"
+              src="./assets/img.projetofrescowp/prato02-300x255.jpg"
+              alt=""
+            />
+            <div class="menu__options">
+              <span class="menu__options--meals">Spaghetti à calabria</span>
+              <p class="menu__description">
+                Molho alho e óleo e outra folha (maior)
+              </p>
+              <span class="menu__price">R$25</span>
             </div>
-            <div class="menu__btn">
-    
-                <button class="button__orange m-btn">CARDÁPIO COMPLETO</button>
-            </div>
-        </section>
-            
-        <section class="happy-hour">
-            
-                <img class="happy-hour__image" src="./assets/img.projetofrescowp/restaurante01.jpg" alt="">
-           
-            <div class="happy-hour__promotion">
-      
-                <img class="happy-hour__svg" src="./assets/img.projetofrescowp/cup.svg" alt="">
-                <span class="happy-hour__promo-day">Toda quarta-feira</span>
-                <h4 class="happy-hour__title">Happy Hour!</h4>
-                <p class="happy-hour__description">Metade do preço nas garrafas de vinho e seis deliciosos lanches por R$9</p>
-                <button class="happy-hour__btn">MAIS NOTÍCIAS</button>
-            </div>
-        </section>
+          </div>
 
-        <section class="depositions">
+          <div class="menu__portions">
+            <img
+              class="menu__portions--image"
+              src="./assets/img.projetofrescowp/prato03-300x255.jpg"
+              alt=""
+            />
+            <div class="menu__options">
+              <span class="menu__options--meals">Pizza favorita</span>
+              <p class="menu__description">Um pouco de tudo (e muito mais)</p>
+              <span class="menu__price">R$32</span>
+            </div>
+          </div>
+        </div>
+        <div class="menu__btn">
+          <button class="button__orange m-btn">CARDÁPIO COMPLETO</button>
+        </div>
+      </section>
 
-                    
-                        <div class="depositions__person">
-                            <p class="width-image"></p>
-                        <img  class="quotes" src="./assets/img.projetofrescowp/aspas.png" alt="">
-                        <h3 class="depositions__title">Depoimentos</h3>
-                    </div>
-                    
-                    <div class="depositions__person">
-                        <img class="depositions__image" src="./assets/img.projetofrescowp/depoimento01.png" alt="">
-                        <div class="depositions__description">“A melhor pizza do bairro, e quando pedimos o vinho para acompanhar, temos a dupla perfeita. Recomendo a todos aqueles que procuram um lugar agradável para jantar.”
-                        </div>
-                        <div class="depositions__name-network">
-                            <span class="depositions__name">Joana L</span>
-                            <span class="depositions__network">Facebook</span>
-                        </div>
-            
-                
-                    </div>
-           
-                    <div class="depositions__person">
-                        <img class="depositions__image" src="./assets/img.projetofrescowp/depoimento03.png" alt="">
-                        <div class="depositions__description">“A melhor pizza do bairro, e quando pedimos o vinho para acompanhar, temos a dupla perfeita. Recomendo a todos aqueles que procuram um lugar agradável para jantar.”
-                        </div>
-                        <div class="depositions__name-network">
-                            <span class="depositions__name">Clarissa J</span>
-                            <span class="depositions__network">YouTube</span>
-                        </div>
-                    </div>
-                    <div class="depositions__person">
-                        <img class="depositions__image" src="./assets/img.projetofrescowp/depoimento02.png" alt="">
-                        <div class="depositions__description">“A melhor pizza do bairro, e quando pedimos o vinho para acompanhar, temos a dupla perfeita. Recomendo a todos aqueles que procuram um lugar agradável para jantar.”
-                        </div>
-                        <div class="depositions__name-network">
-                            <span class="depositions__name">Juliana P</span>
-                            <span class="depositions__network"> Google</span>
-                        </div>
-                    </div>
-                
-        </section>
+      <section class="happy-hour">
+        <img
+          class="happy-hour__image"
+          src="./assets/img.projetofrescowp/restaurante01.jpg"
+          alt=""
+        />
+
+        <div class="happy-hour__promotion">
+          <img
+            class="happy-hour__svg"
+            src="./assets/img.projetofrescowp/cup.svg"
+            alt=""
+          />
+          <span class="happy-hour__promo-day">Toda quarta-feira</span>
+          <h4 class="happy-hour__title">Happy Hour!</h4>
+          <p class="happy-hour__description">
+            Metade do preço nas garrafas de vinho e seis deliciosos lanches por
+            R$9
+          </p>
+          <button class="happy-hour__btn">MAIS NOTÍCIAS</button>
+        </div>
+      </section>
+
+      <section class="depositions">
+        <div class="depositions__person">
+          <p class="width-image"></p>
+          <img
+            class="quotes"
+            src="./assets/img.projetofrescowp/aspas.png"
+            alt=""
+          />
+          <h3 class="depositions__title">Depoimentos</h3>
+        </div>
+
+        <div class="depositions__person">
+          <img
+            class="depositions__image"
+            src="./assets/img.projetofrescowp/depoimento01.png"
+            alt=""
+          />
+          <div class="depositions__description">
+            “A melhor pizza do bairro, e quando pedimos o vinho para acompanhar,
+            temos a dupla perfeita. Recomendo a todos aqueles que procuram um
+            lugar agradável para jantar.”
+          </div>
+          <div class="depositions__name-network">
+            <span class="depositions__name">Joana L</span>
+            <span class="depositions__network">Facebook</span>
+          </div>
+        </div>
+
+        <div class="depositions__person">
+          <img
+            class="depositions__image"
+            src="./assets/img.projetofrescowp/depoimento03.png"
+            alt=""
+          />
+          <div class="depositions__description">
+            “A melhor pizza do bairro, e quando pedimos o vinho para acompanhar,
+            temos a dupla perfeita. Recomendo a todos aqueles que procuram um
+            lugar agradável para jantar.”
+          </div>
+          <div class="depositions__name-network">
+            <span class="depositions__name">Clarissa J</span>
+            <span class="depositions__network">YouTube</span>
+          </div>
+        </div>
+        <div class="depositions__person">
+          <img
+            class="depositions__image"
+            src="./assets/img.projetofrescowp/depoimento02.png"
+            alt=""
+          />
+          <div class="depositions__description">
+            “A melhor pizza do bairro, e quando pedimos o vinho para acompanhar,
+            temos a dupla perfeita. Recomendo a todos aqueles que procuram um
+            lugar agradável para jantar.”
+          </div>
+          <div class="depositions__name-network">
+            <span class="depositions__name">Juliana P</span>
+            <span class="depositions__network"> Google</span>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer >
-        <div class="contact">
-            <div class="contact__overlay">
-                <img class="contact__svg" src="./assets/img.projetofrescowp/phone.svg" alt="">
-                <h3 class="contact__title">Ligue e faça a sua reserva</h3>
-                <p class="contact__phone">3004-8660</p>
-
-            </div>
-            <div class="author">
-                <p class="footer__description">© 2021 Fresco | Replicado com HTML & CSS por <a  href="https://andrericardoborba.netlify.app/" target="_blank" class="author__link">André Ricardo Borba</a> </p>
-            </div>
+    <footer>
+      <div class="contact">
+        <div class="contact__overlay">
+          <img
+            class="contact__svg"
+            src="./assets/img.projetofrescowp/phone.svg"
+            alt=""
+          />
+          <h3 class="contact__title">Ligue e faça a sua reserva</h3>
+          <p class="contact__phone">3004-8660</p>
         </div>
+        <div class="author">
+          <p class="footer__description">
+            © 2021 Fresco | Replicado com HTML & CSS por
+            <a
+              href="https://andrericardoborba.netlify.app/"
+              target="_blank"
+              class="author__link"
+              >André Ricardo Borba</a
+            >
+          </p>
+        </div>
+      </div>
     </footer>
-
-</body>
+  </body>
 </html>
