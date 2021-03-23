@@ -1,4 +1,19 @@
+@media (max-width: 1050px) {
+  :root {
+    font-size: 55%;
+  }
+}
+
 @media (max-width: 770px) {
+  /*bem vindo (com três colunas)*/
+  .welcome {
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+  .welcome__title {
+    font-size: 5.5em;
+    margin-bottom: 25px;
+  }
   /*menu*/
   .menu__meals {
     max-width: 90%;
@@ -45,15 +60,6 @@
   /*banner*/
   .banner__title {
     font-size: 7.4rem;
-  }
-  /*bem vindo (com três colunas)*/
-  .welcome {
-    height: 100%;
-    flex-direction: column-reverse;
-  }
-  .welcome__title {
-    font-size: 5.5em;
-    margin-bottom: 25px;
   }
 
   /*happy hour*/
