@@ -11,8 +11,8 @@
   font-size: 62.5%;
 }
 /*font-family: 'Berkshire Swash', cursive;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Montserrat', sans-serif;*/
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
 body {
   height: 100vh;
   width: 100vw;
@@ -242,6 +242,7 @@ body {
 
 .menu__options {
   height: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -352,15 +353,17 @@ body {
 .depositions {
   height: 100%;
   width: 80%;
-
+  
+ 
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 100px;
   margin: auto;
+  
 }
 .quotes {
   max-width: 80%;
-  opacity: 0.4;
+  opacity: 0.40;
 }
 
 .depositions__title {
