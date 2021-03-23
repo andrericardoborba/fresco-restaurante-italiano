@@ -1,13 +1,15 @@
 @media (max-width: 1050px) {
   :root {
-    font-size: 55%;
+    font-size: 50%;
   }
 }
 
 @media (max-width: 770px) {
   /*bem vindo (com três colunas)*/
   .welcome {
-    height: 100%;
+    height: 80%;
+    max-width: 70%;
+    margin: 30px auto;
     flex-direction: column-reverse;
   }
   .welcome__title {
@@ -24,6 +26,7 @@
     height: 100%;
   }
   .happy-hour__image {
+    max-height: 80%;
     align-self: center;
     margin-bottom: 20px;
   }
