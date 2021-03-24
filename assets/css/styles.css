@@ -108,6 +108,11 @@ body {
   font-size: 1.8rem;
   outline: none;
 }
+.btn-black:hover {
+  background-color: rgba(255, 136, 0, 0.9);
+  transform: scale(1.1);
+  transition: transform 0.5s;
+}
 
 .welcome__opening {
   position: relative;
@@ -299,6 +304,8 @@ body {
 
 .happy-hour__btn:hover {
   background-color: rgba(255, 136, 0, 0.9);
+  transform: scale(1.1);
+  transition: transform 0.3s;
 }
 
 /*depoimentos*/

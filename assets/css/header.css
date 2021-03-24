@@ -22,6 +22,10 @@
     font-size: 1.6rem;
     margin-right: 15px;
   }
+  .header__navigation a:hover {
+      color: rgba(255, 136, 0, 0.95);
+      transition: 0.3s;
+  }
   
   .botoes {
     display: flex;
@@ -33,7 +37,7 @@
   }
   
   .button__orange {
-    padding: 8px 10px;
+    padding: 10px;
     margin: 10px;
     font-size: 1.5rem;
     border-radius: 30px;
@@ -44,4 +48,6 @@
   }
   .button__orange:hover {
     background-color: rgba(255, 136, 0, 0.9);
+    transform: scale(1.02);
+    transition: transform 0.3s;
   }

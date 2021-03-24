@@ -1,0 +1,115 @@
+
+.banner__menu {
+    background: url(../img.projetofrescowp/pizzaria-hero-fundo03.jpg) no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner__menu--overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.36;
+    background-color: #000000;
+    margin: auto; 
+}
+
+.banner__menu--title {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 10rem;
+    color: #ffffff;
+    margin: 2.5rem 0;
+    position: absolute;
+    left: 20px;
+}
+
+.banner__menu--image {
+    position: absolute;
+    left: 20px;
+    bottom: 30%;
+}
+
+/* .parallax {
+    background: rgba(255,255,255, 1) url(/assets/img.projetofrescowp/folha-fundo-02.jpg);
+    min-height: 400px;
+    max-width: 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+
+    position: absolute;
+    top: 100vh;
+    left: 0;
+
+} */
+.option__container {
+    max-width: 80%;
+    margin: 150px auto;
+    background-color: #ffffff;
+    
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.option__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 100%;
+    margin: 20px;
+    
+
+}
+
+.option__image img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80%;
+    height: 500px;
+    
+}
+
+.option__rect {
+    width: 50%;
+    margin: 20px;
+}
+.option__column {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    line-height: 3rem;
+}
+
+.option__row {
+    display: flex;
+
+}
+
+.option__title {
+    color: #C66300;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+.option__subtitle {
+    font-size: 2.6rem;
+}
+.option__description{
+    font-size: 1.6rem;
+    font-style: italic;
+}
+.option__price {
+    color: #C66300;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+}
