@@ -4,8 +4,8 @@
 
 ## Tecnologias usadas:
 
-1 HTML
-2 CSS
+* HTML  
+* CSS
 
 ## Principais objetivos:
 

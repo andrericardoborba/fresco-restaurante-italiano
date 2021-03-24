@@ -1,0 +1,79 @@
+.banner__about {
+    background: url(../img.projetofrescowp/bg-quem-somos.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+.banner__about--overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.86;
+    background-color: rgba(0, 0, 0, 0.85);
+    margin: auto; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.banner__about--title {
+    font-family: "Berkshire Swash", cursive;
+    font-size: 10rem;
+    color: #ffffff;
+    margin: 2.5rem 0;
+    position: absolute;
+    left: 20px;
+    z-index: 10;
+}
+
+.banner__about--image {
+    position: absolute;
+    left: 20px;
+    bottom: 30%;
+    z-index: 10;
+}
+
+.about__container {
+    display: flex;
+    max-width: 90%;
+    height: 700px;
+    margin: 40px auto;
+}
+.about__area {
+    height: 100%;
+    width: 100%;
+    max-width: 45%;
+    margin-right: 30px;
+}
+.about__image-sheet {
+    background: url(/assets/img.projetofrescowp/folha-fundo-01.png) no-repeat;
+    width: 120px;
+    height: 75px;
+}
+
+.about__subtitle {
+    font-size: 3.5rem;
+    line-height: 5rem;
+}
+.about__description {
+    font-size: 1.6rem;
+    line-height: 3rem;
+}
+
+.about__image {
+    background: url(/assets/img.projetofrescowp/quem-somos-img1.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    max-width: 45%;
+    border-radius: 10%;
+}
