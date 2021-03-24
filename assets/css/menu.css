@@ -113,3 +113,33 @@
     font-style: italic;
     font-weight: 700;
 }
+
+@media (max-width: 1080px){
+    .option__container {
+        max-width: 95%;
+    }
+}
+@media (max-width: 770px){
+    :root{
+        font-size: 35%;
+    }
+    
+    .option__menu {
+        flex-direction: column;
+    }
+}
+@media (max-width: 544px){
+    .header__navigation a{
+        display: none;
+    }
+    .option__container {
+        width: 90%;
+        height: 50%;
+        margin: auto;
+        text-align: center;
+    }
+    .option__row {
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+}
