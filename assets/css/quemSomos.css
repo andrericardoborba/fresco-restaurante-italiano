@@ -41,18 +41,19 @@
     bottom: 30%;
     z-index: 10;
 }
-
+/*section about*/
 .about__container {
     display: flex;
-    max-width: 90%;
-    height: 700px;
+    max-width: 95%;
+    height: 75rem;
     margin: 40px auto;
 }
 .about__area {
-    height: 100%;
+    height:100%;
     width: 100%;
-    max-width: 45%;
-    margin-right: 30px;
+    max-width: 47%;
+    margin-right: 20px;
+
 }
 .about__image-sheet {
     background: url(/assets/img.projetofrescowp/folha-fundo-01.png) no-repeat;
@@ -62,7 +63,7 @@
 
 .about__subtitle {
     font-size: 3.5rem;
-    line-height: 5rem;
+    line-height: 4.5rem;
 }
 .about__description {
     font-size: 1.6rem;
@@ -74,6 +75,19 @@
     background-size: cover;
     height: 100%;
     width: 100%;
-    max-width: 45%;
+    max-width: 48%;
     border-radius: 10%;
+}
+@media (max-width: 770px){
+    
+    .about__subtitle {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+    .about__description {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    
 }
