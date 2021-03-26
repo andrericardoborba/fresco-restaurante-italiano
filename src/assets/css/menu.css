@@ -1,6 +1,6 @@
 
 .banner__menu {
-    background: url(../img.projetofrescowp/pizzaria-hero-fundo03.jpg) no-repeat;
+    background: url(../imgs/pizzaria-hero-fundo03.jpg) no-repeat;
     background-size: cover;
     height: 90vh;
     width: 100%;
@@ -35,7 +35,7 @@
 }
 
 /* .parallax {
-    background: rgba(255,255,255, 1) url(/assets/img.projetofrescowp/folha-fundo-02.jpg);
+    background: rgba(255,255,255, 1) url(/src/assets/imgs/folha-fundo-02.jpg);
     min-height: 400px;
     max-width: 100%;
 

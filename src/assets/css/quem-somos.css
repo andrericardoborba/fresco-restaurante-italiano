@@ -1,5 +1,5 @@
 .banner__about {
-    background: url(../img.projetofrescowp/bg-quem-somos.jpg) no-repeat;
+    background: url(../imgs/bg-quem-somos.jpg) no-repeat;
     background-size: cover;
     background-position:center;
     height: 90vh;
@@ -56,7 +56,7 @@
 
 }
 .about__image-sheet {
-    background: url(/assets/img.projetofrescowp/folha-fundo-01.png) no-repeat;
+    background: url(/src/assets/imgs/folha-fundo-01.png) no-repeat;
     width: 120px;
     height: 75px;
 }
@@ -71,7 +71,7 @@
 }
 
 .about__image {
-    background: url(/assets/img.projetofrescowp/quem-somos-img1.jpg) no-repeat;
+    background: url(/src/assets/imgs/quem-somos-img1.jpg) no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -159,6 +159,20 @@
     
 }
 
+@media (max-width: 700px){
+    /*recomendado por*/
+    .recommended__area {
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .recommended__list {
+        margin: 20px auto 50px;
+    }
+    .recommended__list img {
+        margin: auto;
+    }
+}
 @media (max-width: 600px){
     .header__navigation a {
         display: none;
@@ -173,18 +187,6 @@
     .about__area, .about__image {
         min-width: 95%;
         
-    }
-    /*recomendado por*/
-    .recommended__area {
-        flex-direction: column;
-        margin: auto;
-    }
-    
-    .recommended__list {
-        margin: 20px auto 50px;
-    }
-    .recommended__list img {
-        margin: auto;
     }
 
 }

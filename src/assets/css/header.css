@@ -1,0 +1,125 @@
+/*font-family: 'Berkshire Swash', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  color: #292827;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+/*header__logo e nav*/
+.header {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .header__logo {
+    width: 130px;
+    margin-top: 5px;
+    height: 80%;
+  }
+  
+  .header__navigation {
+    display: flex;
+    align-items: center;
+  }
+  .header__navigation a {
+    font-size: 1.6rem;
+    margin-right: 15px;
+  }
+  .header__navigation a:hover {
+      color: rgba(255, 136, 0, 0.95);
+      transition: 0.3s;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .menu-mobile {
+    display: none;
+  }
+  
+  .button__orange {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    background-color: #ff8800;
+    border-color: #ff8800;
+    outline: none;
+    color: #ffffff;
+  }
+  .button__orange:hover {
+    background-color: rgba(255, 136, 0, 0.9);
+    transform: scale(1.02);
+    transition: transform 0.3s;
+  }
+
+
+
+  @media (max-width: 544px) {
+    /*header nav*/
+    .header__navigation a {
+      display: none;
+    }
+    .menu-mobile {
+      height: 34px;
+      width: 34px;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      padding: 6px;
+      border-radius: 30%;
+      background-color: #ff8800;
+      border-color: #ff8800;
+      outline: none;
+      display: flex;
+      cursor: pointer;
+      display: block;
+    }
+    .mm_line {
+      border-radius: 30%;
+      height: 3px;
+      width: 20px;
+      margin: 3px auto;
+  
+      background-color: #ffffff;
+    }
+  }
+
+  @media (max-width: 321px) {
+    :root {
+      font-size: 45%;
+    }
+    /*header e nav*/
+    .header {
+      height: 50px;
+    }
+    .header__logo {
+      width: 70px;
+      max-height: 80%;
+    }
+  
+    .menu-mobile {
+      margin-right: 10px;
+    }
+  }  
