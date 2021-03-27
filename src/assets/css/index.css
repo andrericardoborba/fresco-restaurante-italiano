@@ -4,11 +4,11 @@
   background-attachment: fixed;
   background-position: center;
   height: 800px;
-  width: 100%;
+  max-width: 100vw;
 }
 .banner__overlay {
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,7 +45,12 @@
 .welcome {
   display: flex;
   max-height: 100%;
+  max-width: 100%;
   margin: 20px;
+}
+
+.welcome_invitation, .welcome__pizza, .welcome__opening {
+  flex: 1;
 }
 
 .welcome_invitation {
@@ -101,11 +106,7 @@
   justify-content: center;
   text-align: center;
 }
-.welcome__opening,
-.welcome__pizza,
-.welcome_invitation {
-  flex: 1;
-}
+
 .welcome__opening img {
   height: 100%;
   width: 100%;
@@ -193,6 +194,7 @@
 
 .menu__description {
   font-size: 1.7rem;
+  line-height: 2rem;
   max-width: 80%;
   font-style: italic;
   margin-bottom: 10px;
@@ -293,17 +295,15 @@
 .depositions {
   height: 100%;
   width: 80%;
-  
- 
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-column-gap: 100px;
   margin: auto;
-  
 }
 .quotes {
   max-width: 80%;
-  opacity: 0.40;
+  opacity: 0.4;
 }
 
 .depositions__title {
@@ -351,8 +351,6 @@
   font-size: 1.5rem;
   font-style: italic;
 }
-
-
 
 @media (max-width: 1050px) {
   :root {

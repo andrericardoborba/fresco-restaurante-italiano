@@ -1,192 +1,187 @@
 .banner__about {
-    background: url(../imgs/bg-quem-somos.jpg) no-repeat;
-    background-size: cover;
-    background-position:center;
-    height: 90vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: relative;
-    z-index: 0;
+  background: url(../imgs/bg-quem-somos.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 0;
 }
 
 .banner__about--overlay {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    opacity: 0.86;
-    background-color: rgba(0, 0, 0, 0.85);
-    margin: auto; 
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.86;
+  background-color: rgba(0, 0, 0, 0.85);
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .banner__about--title {
-    font-family: "Berkshire Swash", cursive;
-    font-size: 10rem;
-    color: #ffffff;
-    margin: 2.5rem 0;
-    position: absolute;
-    left: 20px;
-    z-index: 10;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 10rem;
+  color: #ffffff;
+  margin: 2.5rem 0;
+  position: absolute;
+  left: 20px;
+  z-index: 10;
 }
 
 .banner__about--image {
-    position: absolute;
-    left: 20px;
-    bottom: 30%;
-    z-index: 10;
+  position: absolute;
+  left: 20px;
+  bottom: 30%;
+  z-index: 10;
 }
 /*section about*/
 .about__container {
-    display: flex;
-    max-width: 95%;
-    height: 75rem;
-    margin: 40px auto;
+  display: flex;
+  max-width: 95%;
+  height: 75rem;
+  margin: 40px auto;
 }
 .about__area {
-    height:100%;
-    width: 100%;
-    max-width: 47%;
-    margin-right: 20px;
-
+  height: 100%;
+  width: 100%;
+  max-width: 47%;
+  margin-right: 20px;
 }
 .about__image-sheet {
-    background: url(/src/assets/imgs/folha-fundo-01.png) no-repeat;
-    width: 120px;
-    height: 75px;
+  background: url(/src/assets/imgs/folha-fundo-01.png) no-repeat;
+  width: 120px;
+  height: 75px;
 }
 
 .about__subtitle {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
 }
 .about__description {
-    font-size: 1.6rem;
-    line-height: 3rem;
+  font-size: 1.6rem;
+  line-height: 3rem;
 }
 
 .about__image {
-    background: url(/src/assets/imgs/quem-somos-img1.jpg) no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    max-width: 48%;
-    border-radius: 10%;
+  background: url(/src/assets/imgs/quem-somos-img1.jpg) no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 48%;
+  border-radius: 10%;
 }
 
 /*comodidade*/
 .convenience__container {
-    width: 100%;
-    margin-top: 100px;
-    text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
 }
 .convenience__area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 .convenience__title {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
-.convenience__list {   
-    padding-right: 25px;
+.convenience__list {
+  padding-right: 25px;
 }
 .convenience__list img {
-    width: 30px;
-    margin-right: 10px;
+  width: 30px;
+  margin-right: 10px;
 }
 .convenience__option {
-    font-size: 2.7rem;
+  font-size: 2.7rem;
 }
 /*recomendado por*/
 .recommended__container {
-    width: 100%;
-    margin-top: 100px;
-    text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
 }
 .recommended__area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
 }
 .recommended__title {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 30px;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
-.recommended__list {   
-    width: 240px;
-    padding-right: 25px;
+.recommended__list {
+  width: 240px;
+  padding-right: 25px;
 }
 .recommended__list img {
-    width: 140px;
-    margin-right: 10px;
+  width: 140px;
+  margin-right: 10px;
 }
 
-@media (max-width: 770px){
-    /*banner*/
-    .banner__about--title {
-        font-size: 5rem;
-    }
-    /*about*/
-    .about__subtitle {
-        font-size: 3rem;
-        line-height: 3.5rem;
-    }
-    .about__description {
-        font-size: 1.5rem;
-        line-height: 2.5rem;
-    }
+@media (max-width: 770px) {
+  /*banner*/
+  .banner__about--title {
+    font-size: 5rem;
+  }
+  /*about*/
+  .about__subtitle {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .about__description {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
 
-    /*comodidade*/
-    .convenience__area {
-        flex-direction: column;
-    }
-    .convenience__list {
-        margin-bottom: 50px;
-    }
-
-
-    
+  /*comodidade*/
+  .convenience__area {
+    flex-direction: column;
+  }
+  .convenience__list {
+    margin-bottom: 50px;
+  }
 }
 
-@media (max-width: 700px){
-    /*recomendado por*/
-    .recommended__area {
-        flex-direction: column;
-        margin: auto;
-    }
-    
-    .recommended__list {
-        margin: 20px auto 50px;
-    }
-    .recommended__list img {
-        margin: auto;
-    }
+@media (max-width: 700px) {
+  /*recomendado por*/
+  .recommended__area {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .recommended__list {
+    margin: 20px auto 50px;
+  }
+  .recommended__list img {
+    margin: auto;
+  }
 }
-@media (max-width: 600px){
-    .header__navigation a {
-        display: none;
-    }
+@media (max-width: 600px) {
+  .header__navigation a {
+    display: none;
+  }
 
-    .about__container {
-        flex-direction: column;
-        height: 1400px;
-        margin: 30px auto 0;
-        align-items: center;
-    }
-    .about__area, .about__image {
-        min-width: 95%;
-        
-    }
-
+  .about__container {
+    flex-direction: column;
+    height: 1400px;
+    margin: 30px auto 0;
+    align-items: center;
+  }
+  .about__area,
+  .about__image {
+    min-width: 95%;
+  }
 }

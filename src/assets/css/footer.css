@@ -1,60 +1,59 @@
 /*footer*/
 footer .contact {
-    background: url(../imgs/pizzaria-hero-fundo02.jpg) no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    height: 800px;
-    width: 100%;
-    margin-top: 25px;
-  }
-  .contact__overlay {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.85;
-    background-color: #313131;
-  }
-  .contact__svg {
-    height: 70px;
-    width: 70px;
-    margin-bottom: 20px;
-  }
-  .contact__title {
-    font-family: "Berkshire Swash", cursive;
-    color: #ffffff;
-    font-size: 3.5rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .contact__phone {
-    font-size: 6rem;
-    font-weight: 700;
-    color: #ffffff;
-    text-align: center;
-  }
-  
-  .author {
-    text-align: center;
-    background-color: #3a3a3a;
-    height: 10vh;
-    color: #eeeeee;
-    font-size: 1.4rem;
-    line-height: 2rem;
-    padding: 15px;
-  }
-  .author__link {
-    font-family: "Berkshire Swash", cursive;
-    padding: 0 10px;
-    font-size: 1.4rem;
-    color: #c66300;
-  }
-  .footer__description {
-    font-size: 1.4rem;
-    color: #eeeeee;
-  }
-  
+  background: url(../imgs/pizzaria-hero-fundo02.jpg) no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  height: 800px;
+  width: 100%;
+  margin-top: 25px;
+}
+.contact__overlay {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+  background-color: #313131;
+}
+.contact__svg {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 20px;
+}
+.contact__title {
+  font-family: "Berkshire Swash", cursive;
+  color: #ffffff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.contact__phone {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+  background-color: #3a3a3a;
+  height: 10vh;
+  color: #eeeeee;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  padding: 15px;
+}
+.author__link {
+  font-family: "Berkshire Swash", cursive;
+  padding: 0 10px;
+  font-size: 1.4rem;
+  color: #c66300;
+}
+.footer__description {
+  font-size: 1.4rem;
+  color: #eeeeee;
+}
