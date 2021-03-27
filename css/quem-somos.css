@@ -55,7 +55,7 @@
   margin-right: 20px;
 }
 .about__image-sheet {
-  background: url(/src/assets/imgs/folha-fundo-01.png) no-repeat;
+  background: url(/imgs/folha-fundo-01.png) no-repeat;
   width: 120px;
   height: 75px;
 }
@@ -70,7 +70,7 @@
 }
 
 .about__image {
-  background: url(/src/assets/imgs/quem-somos-img1.jpg) no-repeat;
+  background: url(/imgs/quem-somos-img1.jpg) no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
