@@ -352,11 +352,11 @@
   font-style: italic;
 }
 
-@media (max-width: 1050px) {
+/* @media (max-width: 1050px) {
   :root {
     font-size: 50%;
   }
-}
+} */
 
 @media (max-width: 770px) {
   /*bem vindo (com três colunas)*/
@@ -434,9 +434,13 @@
   }
 }
 
-@media (max-width: 321px) {
-  :root {
-    font-size: 45%;
+@media (max-width: 321px) { 
+  /*bem vindo*/
+  .welcome__recognition {
+    font-size: 2.5rem;
+  }
+  .btn-black {
+    align-self: center;
   }
 
   /*menu*/

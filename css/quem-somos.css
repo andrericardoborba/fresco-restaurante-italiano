@@ -170,10 +170,6 @@
   }
 }
 @media (max-width: 600px) {
-  .header__navigation a {
-    display: none;
-  }
-
   .about__container {
     flex-direction: column;
     height: 1400px;

@@ -33,20 +33,6 @@
   bottom: 30%;
 }
 
-/* .parallax {
-    background: rgba(255,255,255, 1) url(/imgs/folha-fundo-02.jpg);
-    min-height: 400px;
-    max-width: 100%;
-
-    background-attachment: fixed;
-    background-position: center;
-    background-size: contain;
-
-    position: absolute;
-    top: 100vh;
-    left: 0;
-
-} */
 .option__container {
   max-width: 80%;
   margin: 150px auto;
@@ -114,18 +100,11 @@
   }
 }
 @media (max-width: 770px) {
-  :root {
-    font-size: 35%;
-  }
-
   .option__menu {
     flex-direction: column;
   }
 }
 @media (max-width: 544px) {
-  .header__navigation a {
-    display: none;
-  }
   .option__container {
     width: 90%;
     height: 50%;
