@@ -1,0 +1,58 @@
+.news {
+  height: 700px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 50px;
+}
+.news__container {
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.news__title {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 10rem;
+}
+
+.news__container img {
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.news__card {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.news__item {
+  height: 400px;
+  width: 100%;
+  max-width: 280px;
+
+  justify-content: space-between;
+  flex-direction: column;
+  flex: 1;
+
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  margin-right: 10px;
+}
+.news__subtitle {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.news__date {
+  display: block;
+  font-size: 1.6rem;
+}
+.news__coments {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+.news__description {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
