@@ -40,11 +40,11 @@ body {
   display: flex;
   align-items: center;
 }
-.header__navigation a {
+.header__navigation .head {
   font-size: 1.6rem;
   margin-right: 15px;
 }
-.header__navigation a:hover {
+.header__navigation .head:hover {
   color: rgba(255, 136, 0, 0.95);
   transition: 0.3s;
 }
@@ -55,7 +55,7 @@ body {
   align-items: center;
 }
 
-.button__orange {
+.header__button .button__orange {
   position: relative;
   padding: 10px;
   margin: 10px;
