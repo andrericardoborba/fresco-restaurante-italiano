@@ -1,0 +1,57 @@
+.contact__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 630px;
+    width: 100%;
+    background: url(/imgs/pizzaria-hero-fundo03.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.contact__hero {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 0.36;
+        background-color: #000000;
+        
+    
+}
+
+.title__contact {
+    font-size: 6rem;
+    color: #fff;
+    font-family: "Berkshire Swash", cursive;
+    position: absolute;
+    left: 50px;
+}
+.phone__contact {
+    font-size: 6rem;
+    color: #fff;
+    position: absolute;
+    bottom: 20%;
+    left: 60px;
+}
+
+.contact--image {
+    width: 250px;
+    position: absolute;
+    bottom: 15%;
+    left: 60px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 20px;
+}
+.form__title {
+    font-size: 5rem;
+    font-family: "Berkshire Swash", cursive;
+    margin-bottom: 20px;
+}
+.form__subtitle {
+    font-size: 1.6rem;
+}
